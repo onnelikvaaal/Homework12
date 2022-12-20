@@ -14,5 +14,14 @@ public class Main {
 
         forWhomTheBellTolls.setYearOfPublishing(2022);
         System.out.println(forWhomTheBellTolls.getYearOfPublishing());
+
+        Book snow2 = new Book("Snow", pamuk, 2022);
+
+        System.out.println(snow.equals(snow2));
+
+
+
+
     }
+
 }
